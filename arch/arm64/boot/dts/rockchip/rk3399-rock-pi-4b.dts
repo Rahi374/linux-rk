@@ -44,3 +44,13 @@
 		pinctrl-0 = <&bt_host_wake_l &bt_wake_l &bt_enable_h>;
 	};
 };
+
+&imx219 {
+	status = "okay";
+};
+
+/*
+&ov5647 {
+	status = "okay";
+};
+*/
